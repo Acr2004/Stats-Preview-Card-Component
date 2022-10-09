@@ -30,7 +30,6 @@ The designs were created to the following widths:
 ### Challenge Colors
 
 - Dark Desaturated Blue: rgb(27, 25, 56)
-- Slightly Transparent White: rgba(255, 255, 255, 0.75)
 - Slightly Transparent White: rgba(255, 255, 255, 0.6)
 - Soft Violet: rgb(170, 92, 219)
 - Very Dark Blue: rgb(9, 11, 26)
@@ -49,7 +48,7 @@ The designs were created to the following widths:
 ### Screenshot
 
 #### Desktop Solution
-![]()
+![](Design/Solution/Desktop%20Solution.png)
 
 #### Mobile Solution
 ![]()

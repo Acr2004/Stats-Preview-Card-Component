@@ -1,1 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+    --dark-desaturated-blue: rgb(27, 25, 56);
+    --slightly-transparent-white: rgba(255, 255, 255, 0.6);
+    --soft-violet: rgb(170, 92, 219);
+    --very-dark-blue: rgb(9, 11, 26);
+    --white: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--very-dark-blue);
+}
+
+#container {
+    display: flex;
+    width: 1110px;
+    height: 446px;
+}
+
+#left-side {
+    width: 60%;
+    background-color: var(--dark-desaturated-blue);
+    border-radius: 10px 0 0 10px;
+    padding: 70px;
+    padding-right: 120px;
+}
+
+#right-side {
+    width: 50%;
+    border-radius: 0 10px 10px 0;
+    background-color: var(--soft-violet);
+}
+
+#picture {
+    border-radius: 0 10px 10px 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+h1 {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#title {
+    color: var(--soft-violet);
+}
+
+#desc {
+    margin-top: 30px;
+    color: var(--slightly-transparent-white);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+#values-div {
+    display: flex;
+    margin-top: 65px;
+}
+
+.values {
+    margin-right: 68px;
+}
+
+.values2 {
+    margin-right: 0;
+}
+
+.values h2 {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.values p {
+    color: var(--slightly-transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+.values2 h2 {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.values2 p {
+    color: var(--slightly-transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
