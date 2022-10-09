@@ -1,9 +1,9 @@
-# Frontend Mentor - Stats preview card component solution
+# Frontend Mentor - Stats Preview Card Component Solution
 
 This is a solution to the [Stats Preview Card Component Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
 ## Table of contents
-- [The challenge](#the-challenge)
+- [The Challenge](#the-challenge)
   - [Challenge Layout](#challenge-layout)
   - [Challenge Colors](#challenge-colors)
   - [Challenge Font](#challenge-font)
@@ -14,7 +14,7 @@ This is a solution to the [Stats Preview Card Component Challenge on Frontend Me
   - [Links](#links)
 - [Author](#author)
 
-### The challenge
+### The Challenge
 
 Users should be able to:
 
