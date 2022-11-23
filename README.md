@@ -51,7 +51,7 @@ The designs were created to the following widths:
 ![](Design/Solution/Desktop%20Solution.png)
 
 #### Mobile Solution
-![]()
+![](Design/Solution/Mobile%20Solution.png)
 
 ### Links
 
