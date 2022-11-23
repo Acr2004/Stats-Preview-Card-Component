@@ -112,3 +112,102 @@ h1 {
     letter-spacing: 1px;
     margin-top: 5px;
 }
+
+@media only screen and (max-width: 1130px) {
+    #container {
+        margin-top: 35px;
+        flex-direction: column-reverse;
+        width: 328px;
+        height: 780px;
+    }
+
+    #left-side {
+        width: 100%;
+        padding: 40px 20px;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+    }
+
+    #right-side {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        height: 250px;
+    }
+
+    #picture {
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    
+    #desc {
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    #values-div {
+        margin-top: 35px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .values {
+        margin-right: 0;
+    }
+
+    .valuesmob {
+        margin-top: 30px;
+    }
+    
+    .values2 {
+        margin-top: 30px;
+    }
+
+    .values p {
+        margin-top: 7px;
+    }
+    
+    .values2 p {
+        margin-top: 7px;
+    }
+
+    @media only screen and (max-height: 830px) {
+        #container {
+            margin-top: -150px;
+        }
+
+        #left-side {
+            padding: 40px 20px;
+        }
+        
+        #desc {
+            margin-top: 5px;
+        }
+
+        #picture {
+            height: 150px;
+            object-fit: cover;
+        }
+
+        #right-side {
+            height: 150px;
+        }
+
+        #values-div {
+            margin-top: 10px;
+        }
+
+        .valuesmob {
+            margin-top: 5px;
+        }
+        
+        .values2 {
+            margin-top: 5px;
+        }
+    }
+}
